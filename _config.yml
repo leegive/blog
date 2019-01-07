@@ -3,18 +3,18 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle:
-description:
-keywords:
-author: John Doe
-language:
+title: Li.shangjin BLOG
+subtitle: 提升自己新的视角，重新定义自己的边界。
+description: Li.shangjin 个人博客，分享、成长、相信技术的力量。
+keywords: 科技 编程 架构 AI 数学 算法
+author: Li.shangjin
+language: zh-CN
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
-root: /
+url: https://leegive.github.io
+root: /blog
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
@@ -73,9 +73,11 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: icarus
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repo: git@gitee.com:leegive/blog.git
+  branch: master
